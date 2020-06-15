@@ -19,12 +19,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-    
     # Runs a set of commands using the runners shell
     - name: Check dir
       run: ls
+
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
 
     - name: Build Gatsby Site
       uses: jzweifel/gatsby-cli-github-action@master
