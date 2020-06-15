@@ -1,0 +1,9 @@
+name: Afrian Junior
+bio: |
+  A room without books is like a body without a soul.
+avatar: ./avatars/afrian-junior.jpg
+social:
+  - url: https://dribbble.com
+  - url: https://stackoverflow.com
+  - url: https://github.com/afrianjunior
+featured: true
