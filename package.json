@@ -8,7 +8,7 @@
     "dev": "gatsby develop",
     "clean": "gatsby clean",
     "proxy": "netlify-cms-proxy-server",
-    "deploy": "gatsby build && gh-pages -d public"
+    "deploy": "gh-pages -d public -b master"
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",
