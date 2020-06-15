@@ -28,6 +28,8 @@ jobs:
 
     - name: Build Gatsby Site
       uses: jzweifel/gatsby-cli-github-action@master
+      with:
+        node-version: 13.x
 
     # Runs a set of commands using the runners shell
     - name: Deploy
