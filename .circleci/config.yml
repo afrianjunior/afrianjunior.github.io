@@ -10,7 +10,6 @@ jobs:
       - node/with-cache:
           steps:
             - run: npm install
-            - run: npm i -g gatsby
             - run: npm run build
             - run: npm run deploy
 workflows:
